@@ -1,6 +1,9 @@
 # nutrition-app-group
 
 
+Jack wuz hear. 
+
+
 
 -inital commit- ari
 
@@ -16,4 +19,7 @@ Jose's line
 hello -samantha
 
 
+jack-dev
 
+
+ dev
