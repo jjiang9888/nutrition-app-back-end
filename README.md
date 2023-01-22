@@ -22,7 +22,3 @@ Jose's line
 hello -samantha
 
 
-jack-dev
-
-
- dev
