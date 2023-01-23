@@ -1,0 +1,42 @@
+[
+    {
+        "Name": "egg",
+        "Carbs": 0.96,
+        "Fats": 9.96,
+        "Proteins": 12.4,
+        "Quantity": 3
+    },
+
+    {
+        "Name": "banana",
+        "Carbs": 23,
+        "Fats": 0.29,
+        "Proteins": 0.74,
+        "Quantity": 1
+    },
+
+    {
+        "Name": "steak",
+        "Carbs": 0,
+        "Fats": 11.4,
+        "Proteins": 27.3,
+        "Quantity": 1
+    },
+
+    {
+        "Name": "chicken",
+        "Carbs": 0,
+        "Fats": 5.95,
+        "Proteins": 23.9,
+        "Quantity": 1
+    },
+
+    {
+        "Name": "tomato",
+        "Carbs": 3.84,
+        "Fats": 0.42,
+        "Proteins": 0.7,
+        "Quantity": 2
+
+    }    
+]
