@@ -1,0 +1,23 @@
+{
+  "name": "nutrition-app-group",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type":"module",
+  "scripts": {
+    "test": "nodemon server.js",
+    "dev": "nodemon server.js",
+    "db:seed":"node Seed/data.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjiang9888/nutrition-app-group.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jjiang9888/nutrition-app-group/issues"
+  },
+  "homepage": "https://github.com/jjiang9888/nutrition-app-group#readme"
+}
