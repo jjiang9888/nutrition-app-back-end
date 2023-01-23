@@ -15,6 +15,8 @@ export const getDay = async (req, res) => {
     const { id } = req.params;
     const day = await Day.findById(id).populate("Items");
 
+    // .populate("Items") is referencing the Items key in the Day object and using the individual item's id to populate the rest of the info.
+
     if (day) {
       return res.json(day);
     }
