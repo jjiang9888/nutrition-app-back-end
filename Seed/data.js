@@ -1,4 +1,4 @@
-import mongoose from 'mongoose'
+import db from "../DB/connection.js"
 import data from './Item.json' assert { type: 'json' }
 import Item from '../Models/Item.js'
 
@@ -12,9 +12,12 @@ let itemData = data.map(raw => {
     return item
 })
 
-Item
-    .deleteMany({})
-    .then(() => Item.create(itemData))
-    .then(() => console.log("Done! Your items were seeded to the database"))
-    .then(() => mongoose.disconnect())
-    .catch(error => console.log("Error", error))
+const insertData = async () => {
+    await db.dropDatabase();
+
+    await Item.create(itemData)
+
+    await db.close();
+}
+
+    insertData();
