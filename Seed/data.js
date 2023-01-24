@@ -6,10 +6,12 @@ import Day from "../Models/Day.js";
 let itemData = data.map((raw) => {
   const item = {};
   item.Name = raw.Name;
+  item.Calories = raw.Calories;
   item.Carbs = raw.Carbs;
   item.Fats = raw.Fats;
   item.Proteins = raw.Proteins;
   item.Quantity = raw.Quantity;
+  item.Notes = raw.Notes;
   return item;
 });
 
@@ -36,15 +38,5 @@ const insertData = async () => {
   await db.close();
 };
 
-// const insertDays = async () => {
-//     await db.dropDatabase();
-
-//     await Day.create(
-
-//     );
-
-//     await db.close();
-// }
-
 insertData();
-// insertDays();
+
