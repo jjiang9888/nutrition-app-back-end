@@ -9,6 +9,6 @@ router.get("/", (req, res) => {
 });
 
 router.use("/items", itemRoutes);
-router.use("/days", dayRoutes);
+router.use("/days/:days/items", dayRoutes);
 
 export default router;
