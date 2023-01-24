@@ -4,7 +4,7 @@ import chalk from "chalk";
 
 mongoose.set("returnOriginal", false);
 
-const url = process.env.MONGO_URL || 'mongodb://127.0.0.1:27017/nutritionapp';
+const url = process.env.DB_URL || 'mongodb://127.0.0.1:27017/nutritionapp';
 
 mongoose.connect(url).catch((err)=> {
     console.log(`Error connection to MongoDB:${err.message}`);
